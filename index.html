@@ -46,7 +46,7 @@ function getSeed() {
 
 function getDailyWord() {
     let now = new Date();
-    let ts = 0+(''+now.getUTCDate()+now.getUTCMonth()+now.getUTCFullYear());
+    let ts = parseInt(''+now.getUTCDate()+now.getUTCMonth()+now.getUTCFullYear());
     let idx = Math.abs(getSeed() ^ ts) % words.length;
     return words[idx];
 }
