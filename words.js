@@ -539,7 +539,6 @@ let words = [
 "bucko",
 "buddy",
 "budge",
-"bueno",
 "buffo",
 "buggy",
 "bugle",
